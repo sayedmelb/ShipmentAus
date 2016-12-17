@@ -30,6 +30,7 @@ namespace ShipmentAus
 
             app.Run(async (context) =>
             {
+                //First version check in to GitHub for compatibility 1.0.0.1
                 await context.Response.WriteAsync("Hello World!");
             });
         }
